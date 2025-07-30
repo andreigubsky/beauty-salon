@@ -1,5 +1,5 @@
 
-
+Якщо зміни не вносилися:
 git merge develop-merge
 
 
