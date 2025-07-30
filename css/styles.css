@@ -56,3 +56,16 @@ footer {
     justify-content: space-between;
     align-items: center;
 }
+
+.container {
+    height: 200px;
+    width: 100%;
+    border-radius: 5px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 5%);
+    border: 1px solid rgba(0, 0, 0, 20%);
+    background-image: url("../images/business.png");
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
