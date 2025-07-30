@@ -1,8 +1,10 @@
 
 Якщо зміни не вносилися:
+
+термінал
 git merge develop-merge
 
-
+vscode
 Reset to base
 Manual Resolution
 
