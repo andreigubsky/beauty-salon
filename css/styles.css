@@ -24,6 +24,7 @@ a {
 
 p {
     margin: 0;
+    display: block;
 }
 
 body {
@@ -35,7 +36,7 @@ body {
 }
 
 img {
-    width: 50px;
+    width: 100px;
     margin-top: 20px;
 }
 
@@ -54,6 +55,10 @@ footer {
     align-items: center;
     margin-bottom: 8px;
     gap: 10px;
+}
+
+.logo {
+    width: 50px;
 }
 
 .footer-class {
@@ -80,9 +85,46 @@ footer {
     margin-bottom: 24px;
 }
 
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 24px;
+}
+
+.item {
+    width: 100px;
+    height: 220px;
+    border: 1px solid rgba(0, 0, 0, 20%);
+    padding: 8px;
+    box-shadow: #f9f9f9;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 2px 2px 4px -2px rgba(0, 0, 0, 10%);
+    transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.5s ease-in-out;
+
+}
+
+.item p {
+    margin-bottom: 6px;
+}
+
+
+.item:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    box-shadow: 3px 3px 6px 1px rgba(0, 0, 0, 20%);
+}
+
 .icon {
-    fill: red;
-    stroke: green;
+    fill: #f3cd03;
+    stroke: #f3cd03;
 }
 
 .main {
