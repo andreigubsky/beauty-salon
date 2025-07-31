@@ -1,7 +1,7 @@
 
 Якщо зміни не вносилися:
 git pull origin develop-merge
-термінал
+
 git merge develop-merge
 
 vscode
