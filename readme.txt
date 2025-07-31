@@ -1,4 +1,18 @@
 
+Якщо зміни не вносилися:
+git pull origin develop-merge
+термінал
+git merge develop-merge
+
+vscode
+Reset to base
+Manual Resolution
+
+
+git add .
+git commit -m "Add section"
+git push
+
 Якщо зміни вносилися:
 git pull origin develop-merge
 git merge develop-merge
@@ -12,12 +26,12 @@ Current - зміни в нашій робочій гілці (header)
 Result - як буде виглядати остаточний варіант
 
 
-Incoming (develop-merge)
+Вікно: Incoming (develop-merge)
 Accept Incoming
 Accept Combination (Incoming first)
 Ignore
 
-Current (header)
+Вікно: Current (header)
 Accept Current
 Accept Combination (Current first)
 Ignore
