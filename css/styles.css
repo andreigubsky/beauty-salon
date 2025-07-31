@@ -2,9 +2,8 @@
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    collor: red;
+    color: red;
     background-color: #f9f9f9;
-    color: green;
 }
 
 h1 {
@@ -53,6 +52,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 8px;
+    gap: 10px;
 }
 
 .footer-class {
@@ -80,8 +80,8 @@ footer {
 }
 
 .icon {
-    fill: ;
-    stroke: ;
+    fill: red;
+    stroke: green;
 }
 
 .main {
