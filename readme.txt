@@ -47,5 +47,5 @@ Rebase -?
 Потім маємо зробити commit
 
 git commit -m "Add section"
-Після commit потрібно синзронізувати git push
-git push
+Після commit потрібно синзронізувати Sync Changes
+або git push
